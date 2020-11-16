@@ -1,10 +1,6 @@
-/*
-for loop -> li's
-append li's to ul
-event handlers for hover
-*/
 const ul = document.querySelector('#nav-list');
 const menu = ['Search', 'Home', 'JavaScript', 'CSS'];
+
 function createNav(num) {
   for (let i = 0; i < num.length; i++) {
     const li = document.createElement('li');
